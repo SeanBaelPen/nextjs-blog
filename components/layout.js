@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Your Name';
-export const siteTitle =  'Next.js Sample Website';
+const name = 'Sean Pen';
+export const siteTitle =  'Pen\'s Blogs';
 
 export default function Layout({ children, home }) {
     return (
@@ -32,8 +32,8 @@ export default function Layout({ children, home }) {
               priority 
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={190}
+              width={150}
               alt=""
             />
             <h1 className={utilStyles.heading2X1}>{name}</h1>
@@ -45,7 +45,7 @@ export default function Layout({ children, home }) {
                 priority
                 src="/images/profile.jpg"
                 className={utilStyles.headingLg}
-                height={108}
+                height={150}
                 width={108}
                 alt=""
               />
